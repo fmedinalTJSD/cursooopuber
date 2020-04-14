@@ -1,5 +1,6 @@
 <?php
-    class Account{
+    require_once("account.php");
+    class AccountDriver extends Account{
         public $id;
         public $name;
         public $document;
@@ -7,8 +8,7 @@
         public $password;
 
         public function __construct($name, $document){
-            $this->name = $name;
-            $this->document = $document;
+            parent::__construct($license, $document);
         }
     }
 ?>

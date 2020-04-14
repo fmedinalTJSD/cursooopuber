@@ -7,8 +7,8 @@
         public $passenger;
 
         public function __contruct($license, $driver){
-            $this->license = $licencia
-            $this->driver = $driver
+            $this->license = $licencia;
+            $this->driver = $driver;
         }
 
         public function printDataCar(){
